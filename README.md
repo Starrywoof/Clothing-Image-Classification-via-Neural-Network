@@ -7,6 +7,7 @@ In this project, two different types of neural networks, the **Artificial Neural
 The structure of an ANN model can be summarized into three layers: the Input layer, Hidden layer(s), and Output layer. Here is a brief description of each layer:
 
 ![Brief Illustration of ANN](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Brief_Illustration_of_ANN.png)
+
 **Figure 1:** Brief Illustration of ANN
 
 The Input layer consists of training set images, and the Output layer consists of 10 clothing category labels. 
@@ -16,19 +17,23 @@ A *Flatten layer* is employed to convert the multidimensional 28x28 image data i
 The connection between the Hidden layer and the Input layer is fully connected, so we use the Dense layer from Keras.
 
 ![An Example of Dense (ReLU) Layer](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Fully_Connected.png)
+
 **Figure 2:** An Example of Dense (ReLU) Layer
 
 In classification problems, Softmax Regression is commonly used to calculate the probabilities of output classes.
 
 ![The Dense (Softmax) Regression Layer](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Regression_Layer.png)
+
 **Figure 3:** The Dense (Softmax) Regression Layer
 
 ### Visualization through Tensorboard
 
 ![Training Accuracy Curve and Loss Curve](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Accuracy_and_Loss_Curve_ANN.png)
+
 **Figure 4:** Training Accuracy Curve and Loss Curve
 
 ![Histograms and Distributions Graph](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Histograms_and_Distributions_ANN.png)
+
 **Figure 5:** Histograms and Distributions Graph
 
 <small>**Note:** The data source for Histograms graphs consists of multiple one-dimensional arrays. In Distributions graphs, the x-axis corresponds to the array ID, while the y-axis corresponds to the color values in the array. The darkness or lightness of the colors indicates the frequency of occurrence for the corresponding values.</small>
@@ -36,31 +41,39 @@ In classification problems, Softmax Regression is commonly used to calculate the
 ### Visualizing Clustering Process using Projector
 
 ![Initial Clustering Situation of the Softmax Layer](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Initial_Clustering_ANN.png)
+
 **Figure 6:** Initial Clustering Situation of the Softmax Layer
 
 ![Clustering Situation of the Softmax Layer at Iteration 279](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Clustering_Iteration_ANN.png)
+
 **Figure 7:** Clustering Situation of the Softmax Layer at Iteration 279
 
 ## 2. Convolutional Neural Network (CNN) Model
 
 ![Convolutional Neural Network Model Architecture Diagram](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/CNN.png)
+
 **Figure 8:** Convolutional Neural Network Model Architecture Diagram
 
 ![An Example of Convolution Operation](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Convolution_Operation.png)
+
 **Figure 9:** An Example of Convolution Operation
 
 ![An Example of Max Pooling](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Max_Pooling.png)
+
 **Figure 10:** An Example of Max Pooling
 
 ### Visualization through Tensorboard
 
 ![Training Accuracy Curve and Loss Curve](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Accuracy_and_Loss_Curve_CNN.png)
+
 **Figure 11:** Training Accuracy Curve and Loss Curve
 
 ![Histograms and Distributions Graph](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Histograms_and_Distributions_CNN.png)
+
 **Figure 12:** Histograms and Distributions Graph
 
 ![Visualizing the Feature Maps of a CNN Model through Forward Computation](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Feature_Maps_CNN.png)
+
 **Figure 13:** Visualizing the Feature Maps of a CNN Model through Forward Computation
 
 ## 3. Conclusion:
