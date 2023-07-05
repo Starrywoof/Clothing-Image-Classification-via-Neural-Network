@@ -74,7 +74,7 @@ In classification problems, Softmax Regression is commonly used to calculate the
 
 ![Visualizing the Feature Maps of a CNN Model through Forward Computation](https://github.com/Starrywoof/Clothing-Image-Classification-via-Neural-Network/blob/main/Pictures/Feature_Maps_CNN.png)
 
-**Figure 13:** Visualizing the Feature Maps of a CNN Model through Forward Computation
+**Figure 13:** Visualizing the Feature Maps through Forward Computation
 
 ## 3. Conclusion:
 
